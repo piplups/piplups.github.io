@@ -1,0 +1,46 @@
+html{
+  font-size: 16px;
+  /* rgb(49, 125, 247)
+      Like a darker twitter tint */
+  background-color: #317df7;
+  /* future colors to be used are:
+      #f9f222 = healthy yellow
+      #30302e = colbalt/steel */
+}
+body {
+  width: 70%;
+  min-width: 800px;
+  margin: 0 auto;
+}
+header > h1{
+
+}
+
+nav ul{
+  padding: 0;
+
+  /*list-style-type allows you to choose
+    what kind of list indicator you have*/
+  list-style-type: none;
+
+  /* places all the list in a horizontal line */
+  flex: 2;
+  display: flex;
+}
+
+nav li{
+  display: inline;
+  text-align: center;
+  /* splits the list equally among the section */
+  flex: 1;
+}
+aside {
+  display: flex;
+}
+main{
+  /*display: flex;*/
+}
+img.resize{
+  max-width: 95%;
+  max-height: 95%;
+}

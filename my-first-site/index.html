@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <!-- HEAD is how things are loaded into the webpage that are
+      not the featured in the webpage itself but are embedded.
+      ex. - author and description of the page,
+          - character set used (ALWAYS 'utf-8')
+          - link to the FAVICON located on the browser's tab bar
+          - link to the CSS file
+          - the TITLE of the page visible on the tab -->
+  <!--***********************HEAD*************************-->
+  <head>
+    <meta name="author" content="Philip Nguyen">
+    <meta name="description" content="This is my first webpage that I will
+    be working on to learn web programming (:">
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="index/favicon.png">
+
+    <!-- link to the .css file here in the head -->
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Welcome to Philip</title>
+  </head>
+
+  <!-- BODY is what is seen on the webpage itself. The CONTENTS.
+        the architecture of it can be similar to:
+        BODY {
+          HEADER();
+          MAIN(){
+            ARTICLE();
+            ASIDE();
+          }
+          FOOTER();
+      }//end BODY-->
+  <!--***********************BODY*************************-->
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>Philip Nguyen</h1>
+        <!-- A navigation bar to help with consistency among pages-->
+      <nav>
+        <ul>
+          <li><a href="file:///C:/Users/Philip/web-projects/my-first-site/index.html">Home</a></li>
+          <li><a href="file:///C:/Users/Philip/web-projects/my-first-site/projects.html">Projects</a></li>
+          <li>Experience</li>
+        </ul>
+
+        <!-- A Search form is another commmon non-linear way to navigate through a website. -->
+        <form>
+          <input type="search" name="q" placeholder="Search query">
+          <input type="submit" value="Go!">
+        </form>
+      </nav>
+    </header>
+
+    <main>
+      <!-- SCHEDULE -->
+      <article id="schedule">
+        <h1>Schedule</h1>
+        <img class="resize" src="images/Fall17Schedule.png" alt="My test image">
+        <p>This is my and Nicole's schedule for Fall 2017</p>
+
+        <ul>
+          <li>Purple = Philip's classes</li>
+          <li>Green = Nicole's classes</li>
+          <li>We both are taking MUSC 10B</li>
+        </ul>
+
+        <h2>My Favorite Websites</h2>
+        <ul>
+          <li><a href="http://www.serebii.net">
+                <img src="images/251.gif" alt="Celebi sprite links to Serebii homepage">
+              </a></li>
+          <li><a href="http://www.youtube.com">
+                <img src="images/385.gif" alt="Jirachi sprite links to Youtube homepage">
+              <a/></li>
+        </ul>
+      </article>
+      <!-- EXPERIENCE -->
+      <article id="Experience">
+        <h1>Toolkit Stats</h1>
+        <ul>
+          <li>Java Lvl. 50</li>
+          <li>C++ Lvl. 48</li>
+          <li>HTML/CSS Lvl. 15</li>
+          <li>JavaScript Lvl. 1</li>
+          <li>SQL Lvl. 1</li>
+          <li>Python Lvl. 1</li>
+          <li>XML Lvl. 1</li>
+        </ul>
+        <h2>Gigs</h2>
+        <p>Opportunities that Increased my Learning</p>
+        <ul>
+          <li>De Anza College Lab Tutor</li>
+          <li>Instructional Student Assistant at SJSU for Assembly Language</li>
+        </ul>
+      </article>
+      <!-- PROJECTS -->
+      <section id="Projects">
+        <p>I've worked on <strong>things</strong> like</p>
+        <ul>
+          <li>CMPE 133 Project <a href="#">Name TBA</a></li>
+          <li>CS 157A Project Name TBA</li>
+          <li>SJSU VSA Website</li>
+          <li>This website right here! (;</li>
+        </ul>
+      </section>
+      <!-- This will be the side bar-->
+      <aside>
+        <h4>Majors</h4>
+        <ul>
+          <li><p>Philip's major is
+            <a href="http://www.bsse.sjsu.edu"
+            title="SJSU's Bachelor's of Science in Software Engineering Program">Software Engineering</a>
+          </p></li>
+          <li><p>Nicole's major is
+            <a href="http://www.info.sjsu.edu/web-dbgen/catalog/departments/HS-section-1.html"
+            title="SJSU's Bachelor's of Science in Health Science Program">Health Science</a>
+          </p></li>
+        </ul>
+      </aside>
+
+    </main>
+
+    <footer>
+      <p>@me to hire me pls
+    </footer>
+
+  </body>
+</html>
